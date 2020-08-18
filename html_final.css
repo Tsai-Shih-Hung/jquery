@@ -1,0 +1,260 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, "Microsoft JhengHei UI", "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    position: relative;
+}
+.container{
+    max-width:1000px;
+    margin: 0 auto;
+}
+.header{
+    
+    box-sizing: border-box;
+    background-color: #f6f6f6;
+    
+    padding:3px 0;
+}
+#header_right{
+    display: flex;
+    justify-content: flex-end;
+}
+.header_right_icon img{
+    margin-top:6px;
+}
+.header_right_icon a{
+    text-decoration: none;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+#menu{
+    display: flex;
+}
+
+.banner{
+    background-image: url('picture/banner.png');
+    width:1000px;
+    height:345px
+}
+
+.bannerinside{
+width:1000px;
+height:120px;
+background-color:rgba(0,0,0, 0.3);
+color:red;
+padding-left:20px;
+padding-top: 40px;
+color:white;
+font-size: 34px;
+}
+
+.bannerinside p{
+    margin-bottom:16px;
+}
+
+.insidemenu{
+    height: 50px;
+    width:75px;
+    line-height: 50px;
+    margin-right: 20px;
+    box-sizing:border-box;
+    text-align: center;
+}
+
+.insidemenu a{
+    text-decoration:none; 
+    color:#00cc99;
+    display: block;
+}
+.section_first{
+    display: flex;
+    justify-content: space-around;
+}
+.first_inside{
+   
+    margin-top: 60px;
+    margin-bottom: 65px;
+}
+.inside{
+    box-sizing: border-box;
+    width: 300px;
+    height:330px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    padding:0px 20px;
+    margin-left: 20px;
+    box-shadow: 2px 2px 8px #e4e4e4;
+}
+.inside img{
+    margin-bottom: 10px;
+}
+.inside h3{
+    margin-bottom: 10px;
+} 
+
+.inside ul,.inside p{
+    line-height: 1.25;
+}
+.section_second{
+    text-align: center;
+    width:1000px;
+}
+
+.section_second h2{
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.section_second table{
+    width:1000px;
+    margin-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.section_second td,.section_second th{
+    width:25%;
+}
+.section_second tr{
+    border-bottom:1px solid #666666;
+}
+
+.wordcolor{
+    color: #00a67d;
+}
+.section_third{
+    background: linear-gradient(#00654b,#009871);
+    color: white;
+    padding-bottom: 30px;
+}
+.section_third h3{
+    text-align: center;
+    font-size: 22px;
+}
+
+#inputform textarea{
+    width:460px ;
+    height:245px;
+    border-radius:3px;
+    margin-left: 20px;
+}
+#inputform div{
+    margin-left: 39px;
+    flex-direction:column;
+    display: flex;
+}
+#inputform label{
+    font-size: 15px;
+    margin-bottom: 7px;
+}
+.buttontype{
+    margin-bottom: 18px;
+    width:458px;
+    height:33px;
+    border:0px;
+    border-radius: 3px;
+    margin-top: 7px;
+}
+.buttonsend{
+    font-size: 16px;
+    width:70px;
+    height:33px;
+    background-color:#00cc99;
+    border:0px;
+    border-radius: 3px;
+    align-self: flex-end;
+    color:white;
+    cursor: pointer;
+}
+.footer{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer img{
+    margin-left: 20px;
+    margin-top: 25px;
+    margin-bottom: 60px;
+}
+.footer div{
+    margin-right: 15px;
+}
+.footer p{
+    margin-bottom: 10px;
+    margin-right:15px;
+    color:#4e4e4e
+} 
+.logo h1 a{    
+    background-image: url('/picture/logo.png');
+    width:220px;
+    height:50px;
+    display: block;
+    text-indent:101%; /*首行縮排*/
+    overflow:hidden; /*自動隱藏超出的文字或圖片*/
+    white-space:nowrap; /*希望元素在第一排上面，沒有斷行*/
+} 
+
+
+.swiper-container {
+    width: 1000px;
+    height: 345px;
+}
+
+.backtop{
+    position: absolute;
+    right:50px;
+    bottom: 50px;
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.backtop:hover{
+    background-color: rgba(209, 200, 200, 0.3);
+}
+
+
+#menu{
+    z-index: 3;
+}
+.insidemenu >ul{
+    display: flex;
+    flex-direction: column;
+}
+
+#menu a:hover,#menu a.active{
+    background: #00cc99;
+    color: #fff
+}
+
+#menu ul{
+    display: none;
+    background-color: white;
+    
+}
+.insidemenu >a{
+    border:0px;
+}
+
+.insidemenu{
+    border-bottom: #00cc99 3px solid;
+}
+
+.dropdown-open a{
+    box-sizing: border-box;
+    
+}
+
+.insidemenu:hover {
+    border-bottom: 5px solid #00cc99;
+
+}
